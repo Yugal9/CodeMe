@@ -2,11 +2,10 @@
     /* background-image: url(galaxy.jpg); */
     background: #12c2e9;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+background: linear-gradient(to bottom, blue,white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-size: contain;
+  background-repeat: no-repeat;
 }
 .container1{
     background-image: url(web5.jpg);
@@ -65,7 +64,7 @@ a{
     border-radius: 15px;
     border-style: double;
     animation: i_sliding 1s linear forwards;
-    font: size 20px; 
+    font: 20px; 
     
     
 }
@@ -240,12 +239,11 @@ img {vertical-align: middle;}
 .text {
   color: whitesmoke;
   /* background-color: blue; */
-  font-size: 50px;
+  font-size: 20px;
   font-family:cursive;
-  padding: 45px;
-  position: relative;
+  padding: 43px;
   bottom: 8px;
-  width: 1156px;
+  width: 124%;
   text-align: center;
   background-size: center;
   height: 100px;
@@ -253,14 +251,9 @@ img {vertical-align: middle;}
     border-radius: 6px;
   
 }
-.fst{
+.fst, .snd,.trd{
    background-image: url(str2.jpg); 
-}
-.snd{
-    background-image: url(str2.jpg);
-}
-.trd{
-    background-image: url(str2.jpg);
+   background-size: cover;
 }
 /* The dots/bullets/indicators */
 .dot {
