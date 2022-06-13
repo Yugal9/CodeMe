@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: yellow;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -28,6 +29,7 @@ body {
 }
 .name {
     margin-bottom: -25px;
+    color: black;
 }
 .contact-details {
     background: #27aae1;
@@ -76,6 +78,14 @@ body {
     padding: 5px;
     border-radius: 5px;
     margin: 30px 0 10px;
+   
+}
+h3{
+    color: blue;
+}
+p{
+    background-color: white;
+    border-radius: 6px;
 }
 #work table td {
     padding: 5px;
@@ -109,9 +119,9 @@ body {
 
 <div id="page">
 <div class="photo-and-name">
-    <img src="../../Images/img.jpg" class="photo">
+    
     <div class="contact-info-box">
-        <h1 class="name">Rajbir Singh</h1><br>
+        <h1 class="name">Yugal Chatterjee</h1><br>
         <p class="contact-details">Phone: XXXXX - XXXXX<br>
         Email: contact@XXXXXX.com</p></div>
 </div><div id="objective">
