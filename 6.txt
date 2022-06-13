@@ -12,7 +12,7 @@ div {
 <body>
 
 <div>
-    <img src="../../Images/img.jpg" width="150px">
+    <img src="IMG_20220220_182131.jpg" width="150px">
     <h2>Yugal Chatterjee</h2>
 </div>
 
