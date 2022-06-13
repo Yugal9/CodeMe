@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: white;
+            background-color: blueviolet;
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: sans-serif;
+            color: gold;
+            background-color: black;
+            border-radius: 9px;
+            padding: 5px;
+        }
+
+        summary {
+            color: yellow;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        details {
+            color: whitesmoke;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+        }
+
+        .dif {
+            margin: 3%;
+        }
+
+        .hyp {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: red;
+            background-color: white;
+            padding: 5px;
+        }
+
+        span {
+            color: yellow;
+        }
+
+        pre {
+            font-size: x-large;
+            background-color: blanchedalmond;
+            border-radius: 7px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1> What is HTML?</h1>
+        <h2> To understand "HTML" from front to back, let's look at each word that makes up the abbreviation:</h2>
+        <div class="dif">
+            <details>
+                <summary>HyperText</summary>
+                text (often with embeds such as images, too) that is organized in order to connect related items
+            </details>
+        </div>
+
+        <div class="dif">
+            <details>
+                <summary>Markup</summary> a style guide for typesetting anything to be printed in hardcopy or soft copy
+                format
+            </details>
+        </div>
+
+        <div class="dif">
+            <details>
+                <summary>Language:</summary> a language that a computer system understands and uses to interpret
+                commands.<details>
+        </div>
+
+        HTML determines the structure of web pages. This structure alone is not enough to make a web page look good and
+        interactive. So you'll use assisted technologies such as CSS and JavaScript to make your HTML beautiful and add
+        interactivity, respectively.
+
+        <div class="dif">
+            <details>
+                <summary>HTML Tags</summary>HTML Tags
+                Since HTML defines the markup for a particular web page, you'll want the text, images, or other embeds
+                to appear in certain ways.
+
+                For example, you might want some text to be big, other text to be small, and some to be bold, italic, or
+                in bullet point form.
+            </details>
+        </div>
+        <h2 class="hyp">All Html Tags!</h2>
+        <div> Top 3 Types of Tags in HTML
+            An HTML document is created using different types of tags. HTML tags can be defined and divided based on a
+            different basis. Let’s see them in the coming parts of this article. We have divided HTML tags based on the
+            following classifications:</div>
+        <div>
+            1. Paired and Unpaired Tags
+            Following are the paired and unpaired tags in HTML explained in detail with the help of examples.</div>
+
+        <h2>Paired Tags</h2>
+        An HTML tag is known as a paired tag when the tag consists of an opening tag and a closing tag as its companion
+        tag. An HTML Paired tag starts with an opening tag: the tag name enclosed inside the angle brackets; for
+        example, a paragraph opening tag is written as ‘<p>’. The content follows the opening tag, which ends with an
+            ending tag: the tag name starting with a forward slash; for example, an ending paragraph tag is written as ‘
+            < /p>’. The first tag can be referred to as the ‘Opening Tag’, and the second tag can be called Closing <
+                    Tag class="br">
+                    < /Tag> <br><br><br>
+                        <span>
+                            Example #1:
+
+                            < p> This text is a paragraph . < /p> <br>
+                                    Output: This is a paragraph
+                        </span>
+    </div>
+    <h2> Unpaired Tags</h2>
+    An HTML tag is called an unpaired tag when the tag only has an opening tag and does not have a closing tag or a
+    companion tag. The Unpaired HTML tag does not require a closing tag; an opening tag is sufficient in this type.
+    Unpaired tags are sometimes also named as Standalone Tags or Singular Tags since they do not require a companion
+    tag.
+    <p>
+        Example:
+    <pre>
+< p> This is a paragraph < /p>
+< hr>
+< i>  < b> This is a bold and italicized text < /b> < i> <br>
+Output:
+This is a paragraph
+<i><b>This is a bold and italicized text</b></i></pre>
+    <br><br>
+    Note: Here, the < hr> is the unpaired tag used to create a horizontal line. In older versions, you might see hr tag
+        written as
+        < hr /> instead of < hr>. These tags are also called Empty Tag.
+            2. Self-Closing Tags
+            Self-Closing Tags are those HTML tags that do not have a partner tag, where the first tag is the only
+            necessary tag that is valid for the formatting. The main and important information is contained WITHIN the
+            element as its attribute. An image tag is a classic example of a self-closing tag. Let’s see it in action
+            below:
+
+            Example:
+
+            < img src="a.jpg" alt="This is an alternate text">
+                Note: In the older versions, the self-closing tags use a ‘forward slash’ before the ending or closing
+                ‘greater than’ sign/symbol, as written below:
+
+                < img src=”a.jpg” alt=”This is an alternate text” />
+
+                3. Utility-Based Tags
+                The HTML tags can be widely differentiated on the basis of their utility, that is, on the basis of the
+                purpose they serve. We can divide them basically into three categories as discussed below:
+
+                Formatting Tags
+                The HTML tags that help us in the formatting of the texts like the size of the text, font styles, making
+                a text bold, etc. This is done using tags like < font>, < b>, < u>, etc. Tables, divisions, and span
+                            tags are also those tags that help format a web page or document and set the layout of the
+                            page. Below is a small program using divisions for formatting the page along with some other
+                            formatting tags.
+
+                            Example:
+                            <pre>
+< body> 
+< div class="container">
+< div class="row">
+< div class="col-25">
+< label for="email"><b>Name</b></label>
+< /div>
+< div class="col-35">
+< input type="text" placeholder="First" name="fname" required>
+< /div>
+< div class="col-35">
+< input type="text" placeholder="Last" name="lname" required>
+< /div>
+< /div>
+< /div>
+< /body>
+</pre>
+                            Output: <br>
+                            <img src="s.jpg" alt="">
+                            <h2>Structure Tags</h2>
+                            The HTML tags that help in structuring the HTML document are called Structure Tags.
+                            Description, head, html, title, body, etc., form the group of the page structure tags. The
+                            structure tags only assist in creating or forming the basic html page from the root; that
+                            is, they do not affect or has any hand in the formatting of texts. So a basic HTML program
+                            is the basic group of structural tags:
+                            <br>
+                            Example:
+                            <pre>
+    < !doctype html>
+    < html>
+    < head>
+    < meta charset="utf-8">
+    < title>Types of Tags Demo< /title>
+    < /head>
+    < body>
+    < p> This is a paragraph < /p>
+    < i> < b> This is a bold and italicized text < /b>< /i>
+    < /body>
+    < /html>
+</pre>
+
+                            Output: <br>
+                            <img src="s2.jpg" alt="">
+</body>
+
+</html>
