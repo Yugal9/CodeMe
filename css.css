@@ -13,28 +13,33 @@ background: linear-gradient(to bottom, blue,white); /* W3C, IE 10+/ Edge, Firefo
 }
 
 .sec_cont{
-    border: 2px solid ;
+    border: 1px solid yellow ;
     border-radius: 7px;
     padding: 0%;
     margin: 0;
-    background-image: url(web6.jpg);
+    /* background-image: url(web6.jpg); */
+    background-color: black;
+    margin: 1px;
+    
 } 
 .hr1{
     margin: 1%;
 }
+
 header{
    font-weight: bolder;
    font-size: 40px;
-   background-color: black;
-   color: white;
-   border: 2px solid;
+   /* background-color: black; */
+   color:yellow;
+   /* border: 2px solid black; */
    border-spacing: 3px;
    border-radius: 91px;
    padding: 33px;
    margin: 1%;
    border-style: ridge;
    text-align: center;
-   background-image: url(web6.jpg);
+   /* background-image: url(web6.jpg); */
+   background: linear-gradient(to right,red, darkcyan);
 }
 nav{
     
@@ -56,18 +61,19 @@ a{
   
 }
 .h2{
-    background-image: url(web4.jpg);
-    
-    color: whitesmoke;
+    /* background-image: url(web4.jpg); */
+    background: linear-gradient(purple,white);
+    color: rgb(22, 20, 20);
     padding: 23px;
-    border:0;
+    border:3;
     border-radius: 15px;
     border-style: double;
     animation: i_sliding 1s linear forwards;
     font: 20px; 
-    
+    margin: 1%;
     
 }
+
 @keyframes i_sliding{
     0%{
         transform: translate(100px);
